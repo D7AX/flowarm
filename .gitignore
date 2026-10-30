@@ -1,0 +1,27 @@
+node_modules/
+.next/
+dist/
+.turbo/
+coverage/
+
+.env
+.env.*
+!.env.example
+
+*.log
+.DS_Store
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Generated Prisma Client
+apps/api/src/generated/
+
+# Temporary files
+.tmp/
+
+# AI-generated tool configuration
+apps/api/.agents/
+apps/api/.claude/
+apps/api/.windsurf/
+apps/api/skills-lock.json
